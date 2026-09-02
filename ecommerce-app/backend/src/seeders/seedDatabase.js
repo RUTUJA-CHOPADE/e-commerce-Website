@@ -49,14 +49,14 @@ async function seedDatabase() {
       // ========================== MEN'S T-SHIRTS (5) ==========================
       {
         category_name: "Men's T-Shirts",
-        name: "Men's Classic Black Crewneck Tee",
-        description: "100% premium combed cotton breathable t-shirt for daily comfort.",
-        price: 699,
-        stock: 50,
-        size: "S,M,L,XL,XXL",
-        color: "Black",
-        image_url: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
-        rating: 4.6,
+        name: "Classic Crewneck Olive T-Shirt",
+        description: "Premium 100% organic cotton crewneck t-shirt with a modern tailored fit in versatile olive green.",
+        price: 799,
+        stock: 45,
+        size: "S, M, L, XL",
+        color: "Olive, Green",
+        image_url: "/products/men/tshirt-1.jpg",
+        rating: 4.7,
         review_count: 140
       },
       {
@@ -723,15 +723,15 @@ async function seedDatabase() {
       // ========================== WOMEN'S DRESSES (5) ==========================
       {
         category_name: "Women's Dresses",
-        name: "Women's Floral Summer Wrap Dress",
-        description: "Vibrant botanical print V-neck wrap dress with cascading ruffle skirt hem.",
-        price: 1499,
+        name: "Linen Sage Wrap Midi Dress",
+        description: "Breezy sage green linen midi dress with a flattering tie waist and button front details.",
+        price: 2499,
         stock: 30,
-        size: "S,M,L,XL",
-        color: "Pink",
-        image_url: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=600&q=80",
+        size: "S, M, L, XL",
+        color: "Sage, Green",
+        image_url: "/products/women/dress-1.jpg",
         rating: 4.9,
-        review_count: 380
+        review_count: 110
       },
       {
         category_name: "Women's Dresses",
